@@ -1,0 +1,27 @@
+<meta>
+	<!-- START OF META.XML -->
+
+	<!-- INFO AND SETTINGS -->
+		<info author="INCepted" type="misc" version="0.0.1" name="Agario" description="Fun Gamemode" />
+		<min_mta_version server="1.4" client="1.5.3"></min_mta_version>
+		<oop>true</oop>
+
+		<!-- SCRIPT FILES -->
+			<!-- SHARED SCRIPTS --> 
+			<script src="gSettings.lua" type="shared" />
+			<script src="Utils.lua" type="shared" />
+			<script src="cVector.lua" type="shared" />
+
+			<!-- SERVER SCRIPTS -->
+			<script src="cServer.lua" type="server" />
+
+			<!-- CLIENT SCRIPTS -->
+			<script src="cClient.lua" type="client" />
+
+		<!-- RESSOURCE FILES -->
+			<!-- IMAGES -->
+			<file src="res/images/player.png" />
+
+			<!-- SOUNDS -->
+			<file src="res/sounds/plop.mp3" />
+</meta>
